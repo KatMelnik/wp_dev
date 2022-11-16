@@ -1,0 +1,97 @@
+h1, .h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: normal;
+  @media screen and (max-width: $breakpoint-mobile) {
+    font-size: 56px;
+    line-height: 48px;
+  }
+}
+
+h2, .h2 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  @media screen and (max-width: $breakpoint-tablet-small) {
+    font-size: 42px;
+    line-height: 38px;
+  }
+  @media screen and (max-width: $breakpoint-mobile) {
+    font-size: 36px;
+    line-height: 32px;
+    margin-bottom: 24px;
+  }
+}
+
+h3, .h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 32px;
+}
+
+h4, .h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 28px;
+  @media screen and (max-width: $breakpoint-tablet-small) {
+    font-size: 28px;
+    line-height: 28px;
+  }
+}
+
+h5, .h5 {
+
+}
+
+h6, .h6 {
+
+}
+
+p, .p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+p {
+  margin-bottom: 1rem;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* Text helpers */
+.text-bold, strong  {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+

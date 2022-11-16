@@ -1,0 +1,56 @@
+@import "common/resset";
+//Import Libs
+@import "libs";
+@import "~slick-carousel/slick/slick";
+@import "~animate.css/animate.compat";
+@import '~magnific-popup/src/css/main';
+//@import '~magnific-popup/src/css/main';
+
+//Import common styles
+@import "common/variables";
+@import "common/breakpoints";
+@import "common/container";
+@import "font-awesome/font-awesome";
+@import "common/fonts";
+@import "common/mixins";
+@import "common/colors";
+@import "common/typography";
+@import "common/display";
+@import "common/spacers";
+@import "common/common";
+
+//Import components styles
+@import "components/buttons";
+@import "components/cards";
+@import "components/images";
+@import "components/links";
+@import "components/list";
+@import "components/loader";
+@import "components/popups";
+@import "components/sliders";
+@import "components/blockquote";
+@import "components/form/checkbox";
+@import "components/form/input-file";
+@import "components/form/input-text";
+@import "components/form/radiobutton";
+@import "components/form/select";
+@import "components/form/textarea";
+@import "components/header";
+@import "components/footer";
+@import "components/icons";
+@import "components/table";
+@import "components/breadcrumbs";
+
+//Import gutenberg block styles
+//@import "gutenberg_block/";
+@import "gutenberg_block/library/library";
+@import "gutenberg_block/base_blocks";
+
+
+
+
+
+//Import another styles
+//@import "cookie";
+
+

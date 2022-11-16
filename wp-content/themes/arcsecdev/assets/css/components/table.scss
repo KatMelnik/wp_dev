@@ -1,0 +1,21 @@
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #333;
+  border-radius: 2px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  //color: #000000;
+  background: #fff;
+}
+th, td {
+  border: 1px solid #333;
+}
+td {
+  padding: 10px 8px;
+}
+tr:nth-child(2n) {
+  background: #FBFBFB;
+}

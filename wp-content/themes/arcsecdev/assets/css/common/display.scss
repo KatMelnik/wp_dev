@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background: #fff;
+  //font-family: $primary-font;
+  &.menu-is-open {
+    overflow: hidden;
+  }
+}
+
+/* Block helpers */
+.flex {
+  display: flex;
+}
+.flex-align-center {
+  display: flex;
+  align-items: center;
+}
+.flex-justify-center {
+  display: flex;
+  justify-content: center;
+}
+.flex-justify-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-justify-end {
+  display: flex;
+  justify-content: flex-end;
+}
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.relative {
+  position: relative;
+}
+.columns{
+  display: grid;
+  grid-gap: $margin_column;
+}
+.columns-1{
+  grid-template-columns: repeat(1, 1fr);
+}
+.columns-2{
+  grid-template-columns: repeat(2, 1fr);
+}
+.columns-3{
+  grid-template-columns: repeat(3, 1fr);
+}
+.columns-4{
+  grid-template-columns: repeat(4, 1fr);
+}
+.columns-5{
+  grid-template-columns: repeat(5, 1fr);
+}
+.columns-6{
+  grid-template-columns: repeat(6, 1fr);
+}

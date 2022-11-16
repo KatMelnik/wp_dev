@@ -1,0 +1,20 @@
+.content_with_image{
+  .inner{
+    display: flex;
+    align-items: center;
+    .content{
+      margin: 0 25px;
+      width: calc(50% - 50px);
+    }
+    .image{
+      width: 50%;
+      position: relative;
+      text-align: center;
+    }
+  }
+  &.left{
+    .inner{
+      flex-direction: row-reverse;
+    }
+  }
+}

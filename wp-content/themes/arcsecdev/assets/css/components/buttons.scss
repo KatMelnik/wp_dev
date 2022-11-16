@@ -1,0 +1,22 @@
+.btn{
+  display: inline-block;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  &:hover{
+    text-decoration: none;
+  }
+  &.btn-default{
+    color: $black;
+    background-color: $white;
+    border: 1px solid $black;
+    border-radius: 5px;
+    padding: 7px 15px;
+    transition: all .5s;
+    &:hover{
+      background-color: $black;
+      color: $white;
+    }
+  }
+}
+

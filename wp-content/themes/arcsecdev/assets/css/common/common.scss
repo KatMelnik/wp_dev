@@ -1,0 +1,18 @@
+.common > *:not(section) {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  @media screen and (max-width: $breakpoint-tablet) {
+    max-width: 92%;
+  }
+}
+
+*{
+  &:focus,
+  &:hover,
+  &:active,
+  &visit{
+    outline: none;
+  }
+}

@@ -1,0 +1,49 @@
+.post-card{
+
+  figure{
+    .image{
+      height: 180px;
+      display: block;
+      position: relative;
+      overflow: hidden;
+      img{
+        transition: all .5s;
+      }
+      &:hover{
+        img{
+          transform: scale(1.5);
+        }
+      }
+    }
+
+    figcaption{
+      padding: 25px 20px;
+      border: 1px solid #dbd9d6;
+    }
+  }
+}
+
+.icon-card{
+  figure{
+    text-align: center;
+  }
+}
+
+.flip-card{
+  .card__show{
+    min-height: 250px;
+    padding: 20px;
+    border: 1px solid $black;
+    background-color: $white;
+    position: relative;
+  }
+
+  .flip{
+    right: 40px;
+    bottom: 40px;
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+  }
+
+}
